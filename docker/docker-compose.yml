@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: db_conta_digital
+      POSTGRES_USER: user_conta_digital
+      POSTGRES_PASSWORD: password_conta_digital
+    ports:
+      - 5432:5432
